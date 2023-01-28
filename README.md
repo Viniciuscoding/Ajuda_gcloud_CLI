@@ -1,9 +1,17 @@
-# Ajuda_gcloud_CLI
+# Cheatsheet
+Full documentation of gcloud is available in [gcloud CLI overview guide](https://cloud.google.com/sdk/gcloud)
 
 
-## Cheatsheet
 
-
+### List
+List the active account name
+```
+gcloud auth list
+```
+List the project ID
+```
+gcloud config list project
+```
 
 ### Environment Variables
 Environment variables, including GOOGLE_CLOUD_PROJECT, contains the name of our current Cloud project.
